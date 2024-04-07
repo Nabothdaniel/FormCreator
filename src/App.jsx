@@ -6,7 +6,7 @@ const App =()=> {
 const location = useLocation();
   return (
     <>
-      <div className="h-[100vh] w-[100%] ">
+      <div className=" ">
         {
       location.pathname === '/' ?   <LoginPage/> : <Outlet/>
         }

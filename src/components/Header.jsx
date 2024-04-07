@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
             </h2>
             <p className="mt-2 text-center text-sm text-gray-600 md:mt-5">
                 {paragraph} {' '}
-                <Link to={linkUrl} className="font-medium text-purple-600 hover:text-purple-500">
+                <Link to={linkUrl} className="font-medium text-indigo-700 hover:text-indigo-500">
                     {linkName}
                 </Link>
             </p>

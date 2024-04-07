@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Form from '../components/Form';
 import FormAction from '../components/FormAction';
-import ImageUpload from '../components/ImageUpload';
+import Upload from '../components/Upload';
 
 const FormsPage = () => {
     const handleSubmit = (e)=>{
@@ -23,8 +23,7 @@ const FormsPage = () => {
                 linkUrl=""
             />
         <Form/>
-        <ImageUpload/>
-        <FormAction handleSubmit={handleSubmit} text="Submit" />
+        <Upload/>
         </section>
     </div>
   )
